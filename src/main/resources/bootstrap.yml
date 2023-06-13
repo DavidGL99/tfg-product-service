@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: product-service
+  cloud:
+    config:
+      enabled: true
+      uri: http://${CONFIG_HOST:localhost}:8086
+
+
+
+
+
